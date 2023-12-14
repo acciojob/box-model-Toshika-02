@@ -1,1 +1,36 @@
 /*  your css code here. If applicable */
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.container {
+  width: 300px;
+  padding: 20px;
+  border: 2px solid #333;
+  border-radius: 10px;
+  text-align: center;
+  display: flex; /* Added to arrange circles in one line */
+}
+
+.circle {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin: 10px;
+}
+
+.red {
+  background-color: #ff5050;
+}
+
+.green {
+  background-color: #66cc66;
+}
+
+.yellow {
+  background-color: #ffd700;
+}
