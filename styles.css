@@ -18,10 +18,10 @@ body {
 }
 
 .circle {
-  width: 100px;
+  width: 90px;
   height: 80px;
   border-radius: 50%;
-  margin: 10px;
+  margin-left: 4px;
 }
 
 .red {
